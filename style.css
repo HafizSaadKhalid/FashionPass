@@ -39,7 +39,7 @@
       display: flex;
       align-items: center;
 
-      .search {
+      /* .search {
         border-bottom: 1px solid;
         width: 150px;
         margin-left: 15px;
@@ -49,7 +49,29 @@
         img {
           width: 20px;
         }
+      } */
+      .search{
+        width: 150px;
+        margin-left: 15px;
+        font-family: sans-serif;
+        padding-bottom: 5px;
+        position: relative;
+
+        img{
+          width: 19px;
+          position: absolute;
+          margin-top: 11px;
+          
+        }
+        .sarch{
+          border: 0cap;
+          border-bottom: 1px solid;
+          width: 150px;
+          padding: 15px 0px 5px 25px;
+          font-size: 15px;
+        }
       }
+
     }
 
     .center-side {
@@ -99,6 +121,8 @@
           padding: 6px 16px;
           font-size: 14px;
           border: 0cap;
+          cursor: pointer;
+          font-weight: bolder;
 
           @media (max-width: 800px) {
             width: 110px;
@@ -182,6 +206,7 @@
         height: 23px;
         border: 0cap;
         font-size: 10px;
+        cursor: pointer;
       }
 
       img {
@@ -244,6 +269,7 @@
     border: 0cap;
     font-size: 20px;
     background-color: #fff;
+    
 
     @media (max-width: 1350px) {
       bottom: 20%;
@@ -290,6 +316,7 @@
     border: 0cap;
     font-size: 15px;
     background-color: #fff;
+    cursor: pointer;
 
     @media (max-width: 767px) {
       left: 70%;
@@ -437,27 +464,16 @@
       height: 35px;
       width: 20%;
       min-width: 200px;
-      /* @media (max-width: 1024px) {
-        display: none;
-      } */
     }
     .two {
       height: 70px;
       width: 20%;
       min-width: 200px;
-
-      /* @media (max-width: 768px) {
-        display: none;
-      } */
     }
     .three {
       height: 200px;
       width: 20%;
       min-width: 200px;
-
-      /* @media (max-width: 570px) {
-        display: none;
-      } */
     }
     .four {
       height: 13px;
@@ -525,6 +541,7 @@
     width: 155px;
     height: 40px;
     margin-top: 20px;
+    cursor: pointer;
 
     &:hover {
       border: 1px solid pink;
@@ -663,6 +680,7 @@
     font-size: 18px;
     font-family: sans-serif;
     margin: 30px auto 20px;
+    cursor: pointer;
   }
 }
 
@@ -752,6 +770,7 @@
       width: 200px;
       background-color: white;
       border: 1px solid white;
+      cursor: pointer;
 
       &:hover {
         background-color: transparent;
@@ -808,6 +827,7 @@
       border: 0cap;
       background-color: white;
       border: 1px solid white;
+      cursor: pointer;
 
       &:hover {
         background-color: transparent;
